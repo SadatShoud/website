@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* menu */
+.menu_bar{
+    padding: 5px;
+    margin-top: 50px;
+}
+.menu_bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu_bar ul li{
+    padding: 15px 25px;
+    margin: 0px 8px;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.menu_bar ul li a:hover{
+    color: #946EF7;
+    transition: ease-in 0.2s;
+    border-bottom: 2px solid white;
+}
+.button1{
+    background-color: #946EF7; 
+    border: 2px solid #946EF7;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.button1:hover {
+    background-color: #946EF7;
+    color: black; 
+}
+/* end of menu */
+/* faq sec */
+.faq_bg{
+    background-image:url('/image/Background.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.faq_sec{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.faq_sec p{
+    color: rgb(148, 148, 148);
+    padding: 10px 5px;
+}
+.faq_sec h1{
+    font-weight: bold;
+    font-size: 6rem;
+}
+hr{
+    width: 60px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 1;
+}
+.cartoon_1 img{
+    margin-top: -20px;
+    float: left;
+}
+.cartoon_2 img{
+    margin-top: -20px;
+    float: right;
+}
+.first_part{
+    background-color: #E3DED8;
+    border-bottom: 10px solid #D6D1CE;
+}
+.first_part2{
+    background-color: #E3DED8;
+}
+.first_que{
+    display: flex;
+    align-items: center;
+}
+.que_sec{
+    float: right;
+}
+.que_sec2{
+    float: left;
+}
+.que_sec h1{
+    font-weight: bold;
+    text-align: center;
+}
+.que_sec2 h1{
+    font-weight: bold;
+    text-align: center;
+}
+.que_sec ul li{
+    list-style-type: none;
+    background-color: #D6D1CE;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+.bi-chat-square-text{
+  color: blueviolet;
+  float: left;
+}
+.bi-chevron-down{
+    color: blueviolet;
+    float: right;
+}
+.que_sec2 ul li{
+    list-style-type: none;
+    background-color: #D6D1CE;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+/* end of faq sec */
+/* Footer part */
+.footer_bar{
+    background-image: url(/image/Background.jpg);
+    text-align: center;
+}
+.head_one h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.second_list{
+    margin-top: 20px;
+}
+.ftr_logo {
+    margin-top: 20px;
+}
+.ftr_logo h3{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.ftr_sec_pera{
+    margin-top: 20px;
+}
+.ftr_sec_pera p{
+    color: white;
+}
+.copy_write_pera{
+    color: white;
+}
+.payment{
+    margin-top: 20px;
+    transition: all .2s;
+}     
+#card:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+/*end of Footer part */

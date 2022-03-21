@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-image: url(/image/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* menu */
+.text h1{
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+    font-weight: bold !important;
+    font-size: 6rem !important;   
+}
+.menu_bar{
+    width: 70%;
+    padding: 5px;
+    margin-top: 100px;
+}
+.menu_bar ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+.menu_bar ul li{
+    padding: 5px 15px;
+    margin: 0px 8px;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.menu_bar ul li a:active{
+    color: #ff6b6b;
+}
+.menu_bar ul li a:hover{
+    color: #946EF7;
+    transition: ease-in 0.2s;
+    border-bottom: 1px solid white;
+}
+.cartoon{
+    float: right;    
+}
+hr{
+    width: 60px;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 1;
+}
+.fulline hr{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 1;
+}
+.button1 {
+    background-color: #946EF7; 
+    border: 2px solid #946EF7;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+  
+.button1:hover {
+    background-color: #946EF7;
+    color: black; 
+}
+/* ends of menu */
+/* Footer part */
+.footer_bar{
+    /* background-image: url(/image/Background.jpg); */
+    text-align: center;
+}
+.head_one h1{
+    color: white;
+}
+.second_list{
+    margin-top: 20px;
+}
+.ftr_logo {
+    margin-top: 20px;
+}
+.ftr_logo h3{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.ftr_sec_pera{
+    margin-top: 20px;
+}
+.ftr_sec_pera p{
+    color: white;
+}
+.copy_write_pera{
+    color: white;
+}
+.payment{
+    margin-top: 20px;
+    transition: all .2s;
+}     
+#card:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+/*end of Footer part */
